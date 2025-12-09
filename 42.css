@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(-40deg, #2a2a2a 0%, #1a1a1a 100%);
+    height: 100vh;
+    margin: 0;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+li{
+    margin: 12px 0;
+}
+a{
+    color: coral;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-family: minecraft;
+    font-weight: 50;
+    font-size: large;
+}
+@font-face{
+    font-family: minecraft;
+    src: url(Minecraft.ttf)
+}
